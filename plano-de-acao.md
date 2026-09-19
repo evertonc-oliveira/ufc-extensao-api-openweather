@@ -10,76 +10,63 @@ que será cobrado nos três marcos.
 
 ## Identificação
 
-- **Equipe:** (nomes e matrículas)
-- **Trilha:** (A) API pública de dados abertos · (B) curadoria e divulgação
-- **Área temática da PREX:**
-- **Por que essa área,** em uma linha:
-- **Repositório:**
+- **Equipe:** Everton Campos de Oliveira (583258), Jonathan Pereira da Silva (582796), Raynnara Garces Ferreira (578630)
+- **Trilha:** (B) curadoria e divulgação
+- **Área temática da PREX:** Tecnologia e Produção
+- **Por que essa área, em uma linha:** O projeto foca em capacitar iniciantes a utilizarem tecnologias de integração de dados (APIs) na prática.
+- **Repositório:** https://github.com/evertonc-oliveira/ufc-extensao-api-openweather.git
 
 ## Campo 1 — O problema
 
-Uma frase, do ponto de vista de quem tem a dificuldade. Precisa ter uma pessoa dentro. Se a frase
-fala de tecnologia e não de gente, ainda é a sua solução disfarçada.
+Pessoas interessadas em aprender programação têm dificuldade em entender como conectar o código ao mundo real, precisando de exemplos práticos e visuais para compreenderem a utilidade de consumir dados de uma API.
 
 ## Campo 2 — O público externo
 
-Quem é, onde está, quantos são.
-
-- **Quem é:**
-- **Duas ou três pessoas reais desse grupo:**
-- **Já falamos com alguma? Quando falaremos?**
-- **Como essa pessoa vai descobrir que o produto existe:**
+Pessoas em geral interessadas em aprender programação e tecnologia, que buscam projetos práticos para aplicar conceitos básicos, residentes principalmente em Fortaleza.
+- **Duas ou três pessoas reais desse grupo:** [Nome do Convidado 1], [Nome do Convidado 2], [Nome do Convidado 3].
+- **Já falamos com alguma? Quando falaremos?** Falaremos na semana do dia 25/09 para realizar o convite oficial.
+- **Como essa pessoa vai descobrir que o produto existe:** Através de convite direto e pessoal da nossa equipe para testar a oficina.
 
 ## Campo 3 — Trilha e produto
 
-- **O que é, em uma frase que caiba num tuíte, e onde ficará publicado:**
-- **O que NÃO faz parte:**
+- **O que é, em uma frase que caiba num tuíte, e onde ficará publicado:** Um roteiro prático e uma oficina ensinando a consumir a API da OpenWeather para exibir o clima local numa página web simples. O material ficará no GitHub da equipe.
+- **O que NÃO faz parte:** O desenvolvimento de sistemas web complexos, manutenção a longo prazo ou a prestação de suporte contínuo da ferramenta.
 
 ## Campo 4 — Fontes de dados
 
-Uma tabela por fonte.
-
 | | |
 | :-- | :-- |
-| Nome e órgão | |
-| Endereço | |
-| Licença — e o que ela permite ao nosso produto | |
-| Atualização — periodicidade declarada e data do dado mais recente | |
-| Dado pessoal? — se sim, granularidade e o que será agregado | |
+| Nome e órgão | OpenWeather (Current Weather Data API) |
+| Endereço | https://openweathermap.org/current |
+| Licença — e o que ela permite ao nosso produto | Free (Creative Commons / MIT) - Permite até 1.000 requisições diárias gratuitas, perfeitamente adequado para fins didáticos. |
+| Atualização — periodicidade declarada e data do dado mais recente | Tempo real. |
+| Dado pessoal? — se sim, granularidade e o que será agregado | Não. Dados puramente climáticos geolocalizados. |
 
 ## Campo 5 — Papéis
 
-Um por integrante, com responsabilidade verificável. Quando um papel girar, registre no diário.
-
 | Integrante | Papel | O que fica sob sua responsabilidade |
 | :-- | :-- | :-- |
-| | | |
-| | | |
-| | | |
+| Everton | Desenvolvedor de Referência | Estruturar o código base (gabarito) e garantir que as rotas da API estão fáceis de explicar. |
+| Jonathan | Articulador Externo | Fazer o contato com os convidados, organizar a coleta de feedback e gerenciar as evidências. |
+| Raynnara | Redatora Didática | Traduzir os passos técnicos para um roteiro em texto (Markdown) fácil de ser seguido pelo público. |
 
 ## Campo 6 — Cronograma
 
-Uma frase por marco, dizendo o que estará pronto. Nada de "avançar no projeto".
-
 | Data | O que estará pronto |
 | :-- | :-- |
-| 02/10 (Marco 1) | |
-| 13/11 (Marco 2) | |
-| 27/11 (Marco 3) | |
-| 04/12 (Socialização) | |
+| 02/10 (Marco 1) | Roteiro básico estruturado e código de referência (gabarito) subidos no repositório. |
+| 13/11 (Marco 2) | Oficina ou teste do material aplicado com o público externo selecionado. |
+| 27/11 (Marco 3) | Produto final refinado com base no retorno do público e diário de bordo preenchido com as evidências. |
+| 04/12 (Socialização) | Apresentação pública dos resultados alcançados. |
 
-**Dependências externas.** O que depende de terceiro (cadastro, chave de acesso, autorização,
-resposta de parceiro) e o que fazemos se falhar. Faça *esta semana* o pedido que demora.
+**Dependências externas:** Geração da chave gratuita da OpenWeather (ocorre imediatamente no cadastro) e a disponibilidade de horário dos convidados para testar o roteiro.
 
 ## Campo 7 — Indicadores
 
-Defina agora, antes de executar. Indicador sem instrumento de coleta é intenção. Cada coleta vira
-depois uma linha do `evidencias.csv`.
-
 | | Medida | Como será coletada | Valor que seria bom |
 | :-- | :-- | :-- | :-- |
-| Contagem | | | |
-| Qualitativa | | | |
+| Contagem | Pessoas que utilizaram o roteiro | Formulário de presença na oficina ou prints enviados mostrando a página pronta. | Pelo menos 3 pessoas de fora da universidade. |
+| Qualitativa | Nível de clareza do material | Retorno escrito (mensagem no WhatsApp ou forms curto) após o teste. | Respostas indicando que o passo a passo da extração dos dados foi fácil de acompanhar. |
 
 ## Antes de entregar: a prova dos nove
 
