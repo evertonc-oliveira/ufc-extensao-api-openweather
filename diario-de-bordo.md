@@ -20,21 +20,22 @@ Copie este arquivo para o repositório da equipe e mantenha-o lá. É o registro
 
 ## Entradas
 
-### Semana de DD/MM
+### Semana de 18/09
 
-**Quem trabalhou e quanto:** nome — Xh; nome — Xh
+**Quem trabalhou e quanto:** Everton — 2h; Jonathan — 2h; Raynnara — 2h
 
 **O que foi feito:**
--
--
+- Reunião de alinhamento para fechamento da equipe e leitura das regras.
+- Discussão de ideias e escolha oficial da Trilha B.
+- Definição do produto final: criação de um roteiro didático utilizando a API da OpenWeather.
 
-**Obstáculo:** (o que travou, quanto tempo custou, se foi resolvido)
+**Obstáculo:** Dificuldade inicial para delimitar o escopo (a ideia inicial abrangia muito a "população em geral" ou a simples criação do sistema). Resolvido após afunilarmos o público para pessoas num geral interessadas em aprender programação e tecnologia. Tempo gasto na definição: ~1h.
 
-**Contato com o público:** (com quem, por que meio, o que disseram)
+**Contato com o público:** Nenhum contato realizado ainda.
 
-**Evidência coletada:** (número, mensagem, print, lista — e onde está guardada)
+**Evidência coletada:** Nenhuma nesta semana.
 
-**Próxima semana:**
+**Próxima semana:** Inicializar o repositório, estruturar o código-base de referência e começar a rascunhar o passo a passo do roteiro didático.
 
 ---
 
