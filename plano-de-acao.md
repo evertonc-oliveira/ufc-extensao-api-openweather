@@ -23,9 +23,9 @@ Pessoas interessadas em aprender programação têm dificuldade em entender como
 ## Campo 2 — O público externo
 
 Pessoas em geral interessadas em aprender programação e tecnologia, que buscam projetos práticos para aplicar conceitos básicos, residentes principalmente em Fortaleza.
-- **Duas ou três pessoas reais desse grupo:** [Nome do Convidado 1], [Nome do Convidado 2], [Nome do Convidado 3].
-- **Já falamos com alguma? Quando falaremos?** Falaremos na semana do dia 25/09 para realizar o convite oficial.
-- **Como essa pessoa vai descobrir que o produto existe:** Através de convite direto e pessoal da nossa equipe para testar a oficina.
+- **Duas ou três pessoas reais desse grupo:** Icaro Bezerra, Luiz Amorim e Natan Freire.
+- **Já falamos com alguma? Quando falaremos?** Sim. O primeiro contato e o convite oficial aos três convidados foram realizados no dia 25/09.
+- **Como essa pessoa vai descobrir que o produto existe:** Através de convite direto e pessoal realizado pela equipe para testar a oficina.
 
 ## Campo 3 — Trilha e produto
 
@@ -38,7 +38,7 @@ Pessoas em geral interessadas em aprender programação e tecnologia, que buscam
 | :-- | :-- |
 | Nome e órgão | OpenWeather (Current Weather Data API) |
 | Endereço | https://openweathermap.org/current |
-| Licença — e o que ela permite ao nosso produto | Free (Creative Commons / MIT) - Permite até 1.000 requisições diárias gratuitas, perfeitamente adequado para fins didáticos. |
+| Licença — e o que ela permite ao nosso produto | **Dados da API:** ODbL (Open Database License). Permite uso gratuito com limite de 60 requisições por minuto, exigindo atribuição obrigatória. Nosso roteiro terá um passo ensinando a inserir esses créditos na página.<br><br>**Nosso Produto:** Todo o material didático criado pela equipe (textos e exemplos) será disponibilizado sob licença **Creative Commons**, permitindo o uso e compartilhamento pelo público. |
 | Atualização — periodicidade declarada e data do dado mais recente | Tempo real. |
 | Dado pessoal? — se sim, granularidade e o que será agregado | Não. Dados puramente climáticos geolocalizados. |
 
