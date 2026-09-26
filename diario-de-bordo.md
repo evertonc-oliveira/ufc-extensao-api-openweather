@@ -37,6 +37,23 @@ Copie este arquivo para o repositório da equipe e mantenha-o lá. É o registro
 
 **Próxima semana:** Inicializar o repositório, estruturar o código-base de referência e começar a rascunhar o passo a passo do roteiro didático.
 
+### Semana de 25/09
+
+**Quem trabalhou e quanto:** Everton — 2h; Jonathan — 2h; Raynnara — 2h
+
+**O que foi feito:** 
+- Reunião de alinhamento (21/09). 
+- Atualizamos o Plano de Ação (licenças e convidados).
+- Começamos a estudar como a API funciona.
+
+**Obstáculo:** Precisamos entender a documentação e o funcionamento da API antes de programar, o que adiou a criação do código-base.
+
+**Contato com o público:** Cada integrante convidou oficialmente uma pessoa para testar nosso projeto (25/09).
+
+**Evidência coletada:** Nenhuma nesta semana.
+
+**Próxima semana:** Acelerar o desenvolvimento do código-base para API e iniciar o passo a passo do roteiro.
+
 ---
 
 ### Semana de DD/MM
