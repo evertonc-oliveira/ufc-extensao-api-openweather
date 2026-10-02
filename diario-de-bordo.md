@@ -54,6 +54,23 @@ Copie este arquivo para o repositório da equipe e mantenha-o lá. É o registro
 
 **Próxima semana:** Acelerar o desenvolvimento do código-base para API e iniciar o passo a passo do roteiro.
 
+### Semana de 02/10
+
+**Quem trabalhou e quanto:** Everton — 5h; Jonathan — 1h; Raynnara — 1h
+
+**O que foi feito:**
+- Pesquisa aprofundada e revisão dos documentos de entrega do Marco 1 (validação final do Plano de Ação e estruturação didática do README).
+- Desenvolvimento da primeira versão do roteiro e do script `clima.py`, com posterior refatoração do código para utilização com coordenadas geográficas.
+- Coleta e organização de registros consolidados com os testadores para gerar evidências adequadas e formais para o projeto.
+
+**Obstáculo:** A compreensão exata dos requisitos de documentação (como adaptar o README para iniciantes em programação) e a necessidade de alterar a lógica do código para coordenadas após a primeira versão estar pronta exigiram estudo e tempo extra de adaptação.
+
+**Contato com o público:** Formalização do contato com os três convidados (Icaro, Luiz e Natan) para obter confirmações claras que servissem como registros adequados para a avaliação.
+
+**Evidência coletada:** Capturas de tela das mensagens de formalização e aceite dos convites, salvas na pasta `evidencias/` e catalogadas no `evidencias.csv`.
+
+**Próxima semana:** Adicionar mais recursos ao script, bem como detalhar os passos no README, avaliar transição do roteiro para um ambiente interativo (Google Colab) e pensar no agendamento dos testes práticos com público.
+
 ---
 
 ### Semana de DD/MM
