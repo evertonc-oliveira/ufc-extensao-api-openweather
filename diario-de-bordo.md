@@ -1,23 +1,3 @@
-# Diário de bordo — modelo
-
-Copie este arquivo para o repositório da equipe e mantenha-o lá. É o registro que:
-
-- **comprova as 28 horas** de execução autônoma por integrante (as horas de extensão que acontecem
-  fora dos encontros de sexta);
-- alimenta a dimensão **D4 da rubrica** (registro do processo);
-- é conferido contra a **autoavaliação** de cada um em 04/12;
-- vira matéria-prima dos indicadores de **condições de desenvolvimento** e **impacto na formação**.
-
-## Como preencher
-
-- **Uma entrada por semana**, mesmo nas semanas em que nada andou — principalmente nessas.
-- **Cinco linhas bastam.** Diário longo não é lido nem pela própria equipe.
-- **Escreva no dia.** Diário reconstruído em novembro é ficção, e se percebe.
-- Quando um papel mudar de mão, registre aqui.
-- Obstáculo é informação, não desculpa: anote o que travou e por quanto tempo.
-
----
-
 ## Entradas
 
 ### Semana de 18/09
@@ -25,9 +5,10 @@ Copie este arquivo para o repositório da equipe e mantenha-o lá. É o registro
 **Quem trabalhou e quanto:** Everton — 2h; Jonathan — 2h; Raynnara — 2h
 
 **O que foi feito:**
-- Reunião de alinhamento para fechamento da equipe e leitura das regras.
-- Discussão de ideias e escolha oficial da Trilha B.
-- Definição do produto final: criação de um roteiro didático utilizando a API da OpenWeather.
+- **Everton:** Leu as regras do projeto, definiu o escopo do produto final e participou da decisão sobre o tema.
+- **Jonathan:** Pesquisou e avaliou alternativas de APIs para o projeto e participou da decisão sobre o tema.
+- **Raynnara:** Propôs o uso da API OpenWeather como base do trabalho e participou da decisão sobre o tema.
+- **Equipe:** Em conjunto, optou por seguir a Trilha B utilizando a API OpenWeather.
 
 **Obstáculo:** Dificuldade inicial para delimitar o escopo (a ideia inicial abrangia muito a "população em geral" ou a simples criação do sistema). Resolvido após afunilarmos o público para pessoas num geral interessadas em aprender programação e tecnologia. Tempo gasto na definição: ~1h.
 
@@ -42,11 +23,11 @@ Copie este arquivo para o repositório da equipe e mantenha-o lá. É o registro
 **Quem trabalhou e quanto:** Everton — 2h; Jonathan — 2h; Raynnara — 2h
 
 **O que foi feito:** 
-- Reunião de alinhamento (21/09). 
-- Atualizamos o Plano de Ação (licenças e convidados).
-- Começamos a estudar como a API funciona.
+- **Everton:** Atualizou o Plano de Ação, pesquisou sobre o funcionamento da API, fez uma reunião de alinhamento com Raynnara, orientou Jonathan sobre as diretrizes de como fazer o convite e convidou seu testador.
+- **Jonathan:** Reuniu-se com Everton para alinhar a abordagem do contato com o público e realizou o convite oficial ao seu testador.
+- **Raynnara:** Participou da reunião de alinhamento geral sobre o projeto com Everton e realizou o convite oficial ao seu testador.
 
-**Obstáculo:** Precisamos entender a documentação e o funcionamento da API antes de programar, o que adiou a criação do código-base.
+**Obstáculo:** Foi necessário entender a documentação e o funcionamento da API antes de programar, o que adiou a criação do código-base.
 
 **Contato com o público:** Cada integrante convidou oficialmente uma pessoa para testar nosso projeto (25/09).
 
@@ -59,9 +40,9 @@ Copie este arquivo para o repositório da equipe e mantenha-o lá. É o registro
 **Quem trabalhou e quanto:** Everton — 5h; Jonathan — 1h; Raynnara — 1h
 
 **O que foi feito:**
-- Pesquisa aprofundada e revisão dos documentos de entrega do Marco 1 (validação final do Plano de Ação e estruturação didática do README).
-- Desenvolvimento da primeira versão do roteiro e do script `clima.py`, com posterior refatoração do código para utilização com coordenadas geográficas.
-- Coleta e organização de registros consolidados com os testadores para gerar evidências adequadas e formais para o projeto.
+- **Everton:** Assumiu integralmente o desenvolvimento técnico e documental. Criou e refatorou o script `clima.py`, elaborou o `README.md`, fez a autopontuação, validou o Plano de Ação e ajustou todos os arquivos para a entrega do Marco 1.
+- **Jonathan:** Realizou pesquisas e estudos individuais sobre o tema do projeto ao longo da semana.
+- **Raynnara:** Realizou pesquisas e estudos individuais sobre o tema do projeto ao longo da semana.
 
 **Obstáculo:** A compreensão exata dos requisitos de documentação (como adaptar o README para iniciantes em programação) e a necessidade de alterar a lógica do código para coordenadas após a primeira versão estar pronta exigiram estudo e tempo extra de adaptação.
 
@@ -70,56 +51,3 @@ Copie este arquivo para o repositório da equipe e mantenha-o lá. É o registro
 **Evidência coletada:** Capturas de tela das mensagens de formalização e aceite dos convites, salvas na pasta `evidencias/` e catalogadas no `evidencias.csv`.
 
 **Próxima semana:** Adicionar mais recursos ao script, bem como detalhar os passos no README, avaliar transição do roteiro para um ambiente interativo (Google Colab) e pensar no agendamento dos testes práticos com público.
-
----
-
-### Semana de DD/MM
-
-**Quem trabalhou e quanto:**
-
-**O que foi feito:**
--
-
-**Obstáculo:**
-
-**Contato com o público:**
-
-**Evidência coletada:**
-
-**Próxima semana:**
-
----
-
-## Exemplo de entrada preenchida
-
-### Semana de 22/09
-
-**Quem trabalhou e quanto:** Ana — 3h; Bruno — 2h; Carla — 2h30
-
-**O que foi feito:**
-- Baixamos o censo escolar de 2024 e contamos vazios nas colunas de infraestrutura (Ana).
-- Primeira rota da API respondendo com dados fixos (Bruno).
-- Escrevemos o e-mail para a coordenadora da escola do bairro (Carla).
-
-**Obstáculo:** o arquivo veio com separador `;` e codificação latin-1; perdemos ~1h até
-descobrir. Resolvido.
-
-**Contato com o público:** e-mail enviado à coordenadora em 24/09, sem resposta ainda.
-
-**Evidência coletada:** cópia do e-mail enviado, em `evidencias/2026-09-24-email.pdf`.
-
-**Próxima semana:** trocar dados fixos pelos reais; cobrar resposta do e-mail.
-
----
-
-## O que conta como evidência
-
-| Serve | Não serve |
-| :-- | :-- |
-| Mensagem de alguém de fora que usou | Captura de tela rodando na sua máquina |
-| Registro de acessos ao endereço público | "Divulgamos nas redes", sem número |
-| Lista de presença ou inscrição em oficina | Retorno de colega da própria turma |
-| Retorno escrito, mesmo curto | Número coletado uma vez, no dia da apresentação |
-
-Guarde as evidências numa pasta do repositório, com data no nome do arquivo. Evidência é subproduto
-de rotina, não tarefa da última semana.
