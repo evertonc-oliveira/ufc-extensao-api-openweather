@@ -1,64 +1,77 @@
-# Consulta Climática: Roteiro Prático com API
+### Consulta Climática: Roteiro Prático com API
+
 Um roteiro prático ensinando a consumir a API da OpenWeather para exibir o clima local através de coordenadas geográficas.
 
-## Para quem é
+#### Para quem é
 Pessoas em geral interessadas em aprender programação e tecnologia, residentes principalmente em Fortaleza, que buscam projetos práticos para aplicar conceitos básicos.
 
-## Como usar
-### Passo 0: Crie sua chave de acesso
-Acesse o site [openweathermap.org](https://openweathermap.org), clique em "Sign Up", preencha seus dados e confirme seu e-mail. Após fazer o login, clique no seu nome de usuário no canto superior direito, vá em "My API keys" e guarde a sequência de letras e números gerada lá (ela é o seu passe livre). Um detalhe importante: chaves recém-criadas costumam demorar cerca de 10 a 15 minutos para serem ativadas pelo sistema deles, então se o código der erro na sua primeiríssima tentativa, não se desespere, basta esperar um pouco e tentar rodar de novo.
+#### Como usar
 
-### Passo 1: Verifique o Python  
-Antes de tudo, o seu computador precisa entender a linguagem Python. Se você ainda não tem ele instalado, acesse o site oficial em [python.org](https://www.python.org), baixe a versão mais recente e faça a instalação. Uma dica muito importante: durante a instalação no Windows, lembre-se de marcar a caixinha que diz Add Python to PATH antes de clicar em instalar.
+##### Passo 0: Crie sua chave de acesso
+Acesse o site openopenweathermap.org, clique em "Sign Up", preencha seus dados e confirme seu e-mail. Após entrar, acesse a aba **API keys** para obter ou gerar sua chave.
 
-### Passo 2: Instale o conectador
-Abra o terminal do seu computador (pesquise por Prompt de Comando ou CMD no menu do Windows, ou Terminal no Mac). Para o nosso código conseguir buscar dados na internet, você precisa instalar um pacote extra. Digite exatamente o comando abaixo na tela preta e aperte Enter:
-```
-pip install requests
+##### Passo 1: Verifique o Python
+Antes de tudo, o seu computador precisa entender a linguagem Python. Abra o terminal e verifique se o Python está instalado:
+```bash
+python --version
 ```
 
-### Passo 3: Prepare e execute o projeto  
-Abra o arquivo `clima.py` em um editor de código (como o VS Code ou bloco de notas), substitua o texto COLOQUE_SUA_CHAVE_DA_API_AQUI pela sua chave gratuita da OpenWeather e salve. Depois, abra o terminal na mesma pasta onde o arquivo está salvo (dica: no Windows, apague o caminho na barra de endereços da pasta, digite cmd e dê Enter; no VS Code, vá no menu superior em "Terminal" e depois "New Terminal"). Com o terminal aberto no local exato, digite `python clima.py` e aperte Enter.
-
-### O resultado será algo parecido com isso:
-
+##### Passo 2: Instale as bibliotecas necessárias
+Abra o terminal do seu computador na pasta do projeto e instale os pacotes requeridos:
+```bash
+pip install requests python-dotenv
 ```
---- CLIMA ATUAL EM FORTALEZA ---
-Temperatura: 30.05°C
-Condição: Céu limpo
+*(Nota no Windows: Se o comando `pip` não for reconhecido, utilize `python -m pip install requests python-dotenv`)*
 
---- Créditos ---
-Dados meteorológicos fornecidos por OpenWeather.
-Licença: Open Data Commons Open Database License (ODbL).
+##### Passo 3: Configure o arquivo de variáveis de ambiente (.env)
+Para proteger sua chave da API e evitar expô-la publicamente no GitHub:
+
+1. Crie um arquivo chamado **`.env`** na raiz do projeto (ou copie o modelo `.env.exemplo`).
+2. Adicione a sua chave da OpenWeather da seguinte forma:
+```env
+OPENWEATHER_API_KEY=sua_chave_aqui
 ```
 
-## De onde vêm os dados
-| Fonte | Órgão | Endereço | Data do dado |
-| :-- | :-- | :-- | :-- |
-| Current Weather Data API | OpenWeather | https://openweathermap.org/current | Em tempo real
-| | | | |
+##### Passo 4: Execute o projeto
+Com o terminal aberto na pasta do projeto, execute o script:
+```bash
+python clima.py
+```
 
-## Licença
-- **Dados:** ODbL (Open Database License), que exige atribuição obrigatória (créditos exibidos pelo nosso código).
-- **Código e material desta equipe:** Creative Commons, permitindo uso e compartilhamento pelo público.
+##### O resultado será algo parecido com isso:
+```text
+--- CLIMA ATUAL ---
+📍 Local: Fortaleza
+🌡️  Temperatura: 30.05°C
+☁️  Condição: Céu limpo
+-------------------
+Créditos: Dados fornecidos por OpenWeather (ODbL).
+```
 
-## O que este produto não faz
-- Não abrange o desenvolvimento de sistemas web complexos.
-- Não oferece manutenção a longo prazo ou prestação de suporte contínuo para a ferramenta.
+##### Tratamento de Erros Integrado
+O script `clima.py` conta com validações automáticas para diferentes cenários:
+* **Conexão Segura (HTTPS):** As requisições são feitas obrigatoriamente via protocolo HTTPS.
+* **Timeout Ajustado:** Requisições têm limite de resposta de 10 segundos para evitar travamentos.
+* **Tratamento de Falta de Internet:** Exibe uma mensagem de alerta amigável e orientações caso não haja conexão com a rede.
+* **Tratamento do Erro 401 (Não Autorizado):** Notifica caso a chave fornecida no `.env` esteja incorreta ou inativa, orientando os passos para solução.
 
-## Contato
-Equipe: Everton Campos de Oliveira, Jonathan Pereira da Silva e Raynnara Garces Ferreira.  
-Problemas e dúvidas podem ser reportadas no repositório oficial da equipe.
+#### De onde vêm os dados
+| Origem | Dados | Licença |
+| :--- | :--- | :--- |
+| OpenWeather API | Temperatura e descrição do clima | ODbL |
 
-## Onde está publicado
-O roteiro básico estruturado e o código de referência encontram-se hospedados neste repositório do GitHub.
+#### Licença
+* Dados: ODbL (Open Database License).
+* Código e material desta equipe: Creative Commons.
 
-## Procedência dos números
-| Número que aparece no material | Fonte | Como foi calculado |
-| :-- | :-- | :-- |
-| Temperatura atual | OpenWeather | Extraído diretamente do campo `temp` localizado dentro do dicionário `main` no JSON da resposta da API. |
-| Descrição do clima | OpenWeather | Extraído do campo `description` contido no primeiro item da lista `weather` no JSON da resposta da API. |
-| | | |
+#### O que este produto não faz
+* Não salva histórico de temperaturas.
+* Não faz previsões para os próximos dias.
 
-## Como adaptar para outro contexto
-A aplicação pode ser adaptada para qualquer localidade do mundo. O usuário só precisa alterar as variáveis lat (Latitude) e lon (Longitude) no código para as coordenadas correspondentes à sua cidade.
+#### Contato
+Equipe do Projeto de Extensão.
+
+#### Procedência dos números
+| Dado | Fonte |
+| :--- | :--- |
+| Coordenadas | Geolocalização de Fortaleza (-3.7319, -38.5267) |
