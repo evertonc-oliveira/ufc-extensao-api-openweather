@@ -64,6 +64,11 @@ O script `clima.py` conta com validações automáticas para diferentes cenário
 * Dados: ODbL (Open Database License).
 * Código e material desta equipe: Creative Commons.
 
+Este software está licenciado sob a licença [MIT](LICENSE).
+
+### Dados Meteorológicos
+Os dados de clima são fornecidos por [OpenWeather](https://openweathermap.org) sob as licenças [CC BY-SA 4.0](https://creativecommons.org) e [ODbL](https://opendatacommons.org). Consulte o arquivo [DATA_LICENSE.md](DATA_LICENSE.md) para obter mais detalhes sobre o uso dos dados.
+
 #### O que este produto não faz
 * Não salva histórico de temperaturas.
 * Não faz previsões para os próximos dias.
