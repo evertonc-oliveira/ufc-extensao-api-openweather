@@ -51,3 +51,20 @@
 **Evidência coletada:** Capturas de tela das mensagens de formalização e aceite dos convites, salvas na pasta `evidencias/` e catalogadas no `evidencias.csv`.
 
 **Próxima semana:** Adicionar mais recursos ao script, bem como detalhar os passos no README, avaliar transição do roteiro para um ambiente interativo (Google Colab) e pensar no agendamento dos testes práticos com público.
+
+### Semana de 09/10
+
+**Quem trabalhou e quanto:** Everton — 2h; Jonathan — 2h; Raynnara — 2h
+
+**O que foi feito:**
+- **Everton:** Realizou as adequações nas evidências (censura de nomes nas imagens e ajuste do `evidencias.csv` para "tentativa de alcance"), detalhou a divisão de tarefas no diário de bordo e atualizou o arquivo `marco-1.md` com a nova autopontuação e o SHA final.
+- **Jonathan:** Implementou o tratamento de erros no código (falta de internet, erro 401, timeout e HTTPS), configurou a leitura da chave por variável de ambiente (`.env` e `.gitignore`) e documentou o uso do `.env` no `README.md`.
+- **Raynnara:** Pesquisou e aplicou o modelo de licença adequado (criação do arquivo `LICENSE` com CC BY 4.0) e desenvolveu o script simples de testes automatizados para o código.
+
+**Obstáculo:** Não houve grandes bloqueios técnicos, o principal desafio foi o tempo de pesquisa necessário para que a equipe compreendesse corretamente os conceitos exigidos pelo professor, como tratamento de exceções de rede, configuração de ambiente e modelos de licenças.
+
+**Contato com o público:** Nenhum nesta semana. O foco da equipe foi totalmente interno para realizar as correções exigidas na devolutiva.
+
+**Evidência coletada:** Nenhuma nova evidência coletada.
+
+**Próxima semana:** Retomar as metas postergadas: adicionar mais recursos ao script, detalhar os passos no `README.md`, avaliar a transição do roteiro para um ambiente interativo (Google Colab) e iniciar o agendamento dos testes práticos com o público.
