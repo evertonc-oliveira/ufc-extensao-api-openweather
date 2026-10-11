@@ -6,7 +6,7 @@
 - **Marco e data:** Marco 1, 02/10/2026
 - **Trilha:** B (curadoria e divulgação)
 - **Endereço público do produto:** https://github.com/evertonc-oliveira/ufc-extensao-api-openweather
-- **Commit ou tag desta entrega:** marco-1
+- **Commit ou tag desta entrega:** 55270ad
 
 ## Campo 1 — O que funciona hoje
 
@@ -36,10 +36,10 @@
 
 | Dimensão | n.a.? | Pts (0–2) | Por quê, em uma linha |
 | :-- | :-- | :-- | :-- |
-| D1 Qualidade técnica | | 2 | Código totalmente funcional. |
+| D1 Qualidade técnica | | 2 | O código possui tratamento de erros, timeout, HTTPS, testes automatizados e gestão segura de credenciais via .env. |
 | D2 Alcance e adequação ao público | x | n.a. | n.a. |
-| D3 Documentação e reprodutibilidade | | 2 | Roteiro redigido de forma didática e passo a passo, focado no público iniciante. |
-| D4 Registro do processo | | 2 | Diário de bordo atualizado com a divisão de horas real e os obstáculos enfrentados na semana. |
+| D3 Documentação e reprodutibilidade | | 2 | O roteiro no README.md contém instruções claras sobre o ambiente e o projeto inclui o arquivo LICENSE (CC BY 4.0). |
+| D4 Registro do processo | | 2 | O diário de bordo detalha as tarefas individuais e os commits no repositório refletem a distribuição de trabalho da equipe. |
 | D5 Autoavaliação e reflexão | x | n.a. | n.a. |
 
 ## Antes de entregar
