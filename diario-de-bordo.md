@@ -68,3 +68,20 @@
 **Evidência coletada:** Nenhuma nova evidência coletada.
 
 **Próxima semana:** Retomar as metas postergadas: adicionar mais recursos ao script, detalhar os passos no `README.md`, avaliar a transição do roteiro para um ambiente interativo (Google Colab) e iniciar o agendamento dos testes práticos com o público.
+
+### Semana de 16/10
+
+**Quem trabalhou e quanto:** Everton — 30 min; Jonathan — 0h; Raynnara — 0h
+
+**O que foi feito:**
+- **Everton:** Realizou o ajuste definitivo na pasta `evidencias/`, utilizando ferramentas de reescrita de histórico do Git para remover dados sensíveis do passado do repositório.
+- **Jonathan:** Sem atividades técnicas nesta semana.
+- **Raynnara:** Sem atividades técnicas nesta semana.
+
+**Obstáculo:** A necessidade técnica de manipular o histórico profundo do Git (limpeza de commits antigos) para garantir a privacidade total dos convidados.
+
+**Contato com o público:** Nenhum contato nesta semana.
+
+**Evidência coletada:** Nenhuma nova evidência, apenas o tratamento de segurança das evidências anteriores.
+
+**Próxima semana:** Retomar as metas postergadas: adicionar novos recursos ao script, detalhar os passos no `README.md`, avaliar a transição do roteiro para o Google Colab e iniciar o agendamento dos testes práticos com o público.
