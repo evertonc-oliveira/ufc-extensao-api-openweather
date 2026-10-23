@@ -85,3 +85,21 @@
 **Evidência coletada:** Nenhuma nova evidência, apenas o tratamento de segurança das evidências anteriores.
 
 **Próxima semana:** Retomar as metas postergadas: adicionar novos recursos ao script, detalhar os passos no `README.md`, avaliar a transição do roteiro para o Google Colab e iniciar o agendamento dos testes práticos com o público.
+
+### Semana de 23/10
+
+**Quem trabalhou e quanto:** Everton — 1h 30 min; Jonathan — 30 min; Raynnara — 1h
+
+**O que foi feito:**
+- **Everton:** Corrigiu a codificação do arquivo `.gitignore` para UTF-8 (validando a proteção do `.env`), abriu um chamado no suporte do GitHub para a exclusão definitiva do commit `eafce5b` em cache, e conduziu o alinhamento e a delegação de tarefas.
+- **Jonathan:** Participou do alinhamento da equipe sobre os rumos do projeto e tomou ciência das suas próximas tarefas técnicas.
+- **Raynnara:** Abriu chamado no suporte do GitHub sobre o pedido de remoção dos dados sensíveis do commit `eafce5b` e participou do alinhamento e planejamento da equipe.
+- **Equipe:** Em discussão conjunta, optou-se por descartar a transição do projeto para o Google Colab, mantendo o foco em tornar a execução local via terminal no VS Code o mais amigável possível.
+
+**Obstáculo:** A persistência de dados sensíveis no cache do GitHub, exigindo a abertura de chamados técnicos, e a necessidade de reestruturar as metas descartando ideias inviáveis a curto prazo.
+
+**Contato com o público:** Nenhum contato nesta semana.
+
+**Evidência coletada:** Nenhuma nova evidência.
+
+**Próxima semana:** Executar as atividades delegadas (implementar testes com `mock`, aplicar o modelo de licenças MIT e CC BY 4.0, refinar o `README.md`) e agendar a primeira sessão de testes práticos com o público.
