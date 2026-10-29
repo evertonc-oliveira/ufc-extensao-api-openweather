@@ -2,13 +2,13 @@
 
 Um roteiro prático ensinando a consumir a API da OpenWeather para exibir o clima local através de coordenadas geográficas.
 
-### Para quem é?
+## Para quem é?
 
 Pessoas interessadas em aprender conceitos básicos de programação, sem necessidade de experiência prévia.
 
-### Como usar passo a passo?
+## Como usar passo a passo?
 
-##### Passo 1: Instalação do Python
+### Passo 1: Instalação do Python
 
 1. Acesse o site oficial: https://www.python.org/downloads/ e baixe a versão mais recente.
 
@@ -16,7 +16,7 @@ Pessoas interessadas em aprender conceitos básicos de programação, sem necess
 
 3. IMPORTANTE (Windows): Na primeira tela do instalador, marque a caixa de seleção "Add Python to PATH" ou "Add python.exe to PATH" antes de clicar em "Install Now".
 
-##### Passo 2: Criação da chave da API
+### Passo 2: Criação da chave da API
 
 1. Acesse o site https://openweathermap.org/ e clique em "Sign Up".
 
@@ -26,7 +26,7 @@ Pessoas interessadas em aprender conceitos básicos de programação, sem necess
 
 4. Copie a sequência de letras e números gerada na tela. Esta é a sua chave. (Pode levar alguns minutos para a chave ser ativada pelo sistema).
 
-##### Passo 3: Download do projeto
+### Passo 3: Download do projeto
 
 1. Acesse a página do repositório: https://github.com/evertonc-oliveira/ufc-extensao-api-openweather
 
@@ -36,7 +36,7 @@ Pessoas interessadas em aprender conceitos básicos de programação, sem necess
 
 4. Entre na pasta que foi extraída.
 
-##### Passo 4: Configuração da chave
+### Passo 4: Configuração da chave
 
 1. Dentro da pasta extraída, localize o arquivo chamado `.env.example`.
 
@@ -49,7 +49,7 @@ Pessoas interessadas em aprender conceitos básicos de programação, sem necess
 
 5. Salve e feche o arquivo.
 
-##### Passo 5: Preparação do ambiente
+### Passo 5: Preparação do ambiente
 
 1. Abra o terminal do seu sistema operacional diretamente na pasta do projeto:
 
@@ -68,7 +68,7 @@ Pessoas interessadas em aprender conceitos básicos de programação, sem necess
 
    *(Nota para Windows: Se o comando acima retornar um erro, tente utilizar `python -m pip install requests python-dotenv`)*
 
-##### Passo 6: Execução do código
+### Passo 6: Execução do código
 
 1. No mesmo terminal, digite o comando abaixo e pressione Enter:
 
@@ -89,7 +89,7 @@ Pessoas interessadas em aprender conceitos básicos de programação, sem necess
    
    ```
 
-#### Como funciona?
+## Como funciona?
 
 Quando você executa o comando final, o seguinte processo ocorre em frações de segundo:
 
@@ -103,7 +103,7 @@ Quando você executa o comando final, o seguinte processo ocorre em frações de
 
 5. O script Python lê esse texto, filtra apenas as informações relevantes (como a temperatura e a condição) e as exibe de forma limpa e legível no seu terminal.
 
-#### Tratamento de Erros Integrado
+## Tratamento de Erros Integrado
 
 O script `clima.py` possui validações para orientar o usuário em caso de falhas:
 
@@ -115,13 +115,13 @@ O script `clima.py` possui validações para orientar o usuário em caso de falh
 
 * Chave Inválida (Erro 401): Notifica o usuário e fornece instruções claras caso a chave no arquivo `.env` esteja incorreta ou inativa.
 
-#### De onde vêm os dados
+## De onde vêm os dados
 
 | Origem | Dados | Licença | 
 | ----- | ----- | ----- | 
 | OpenWeather API | Temperatura e descrição do clima | ODbL | 
 
-#### Licença
+## Licença
 
 * Dados: ODbL (Open Database License).
 
@@ -129,21 +129,21 @@ O script `clima.py` possui validações para orientar o usuário em caso de falh
 
 Este software está licenciado sob a licença [MIT](LICENSE).
 
-### Dados Meteorológicos
+## Dados Meteorológicos
 
 Os dados de clima são fornecidos por [OpenWeather](https://openweathermap.org) sob as licenças [CC BY-SA 4.0](https://creativecommons.org) e [ODbL](https://opendatacommons.org). Consulte o arquivo [DATA_LICENSE.md](DATA_LICENSE.md) para obter detalhes sobre o uso.
 
-#### Limitações
+## Limitações
 
 * O sistema não salva histórico de temperaturas.
 
 * O sistema não fornece previsões meteorológicas futuras.
 
-#### Contato
+## Contato
 
 Equipe do Projeto de Extensão da UFC.
 
-#### Procedência dos números
+## Procedência dos números
 
 | Dado | Fonte | 
 | ----- | ----- | 
