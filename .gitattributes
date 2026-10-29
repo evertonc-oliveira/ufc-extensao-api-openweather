@@ -3,7 +3,7 @@ evidencias/ export-ignore
 evidencias.csv export-ignore
 
 # Ignora documentação acadêmica e de gestão
-LEIA-ME.md export-ignore
+README.md export-ignore
 autoavaliacao.md export-ignore
 diario-de-bordo.md export-ignore
 entrega-de-marco.md export-ignore
