@@ -1,0 +1,17 @@
+# Ignora pastas e arquivos de evidências
+evidencias/ export-ignore
+evidencias.csv export-ignore
+
+# Ignora documentação acadêmica e de gestão
+LEIA-ME.md export-ignore
+autoavaliacao.md export-ignore
+diario-de-bordo.md export-ignore
+entrega-de-marco.md export-ignore
+marco-1.md export-ignore
+plano-de-acao.md export-ignore
+socializacao.md export-ignore
+
+# Ignora arquivos de teste e configuração do Git
+testesimples.py export-ignore
+.gitignore export-ignore
+.gitattributes export-ignore
