@@ -71,6 +71,8 @@ vocês.
 Retorno recebido em conversa privada pode ser citado sem identificar quem falou. Uma frase anônima
 com data e canal é evidência; um nome sem autorização é um problema.
 
-### Dados Meteorológicos
+### Atribuição dos dados
 Os dados de clima são fornecidos por [OpenWeather](https://openweathermap.org) sob as licenças [CC BY-SA 4.0](https://creativecommons.org) e [ODbL](https://opendatacommons.org). Consulte o arquivo [DATA_LICENSE.md](DATA_LICENSE.md) para obter mais detalhes sobre o uso dos dados.
+
+
 
