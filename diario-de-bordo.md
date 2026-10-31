@@ -103,3 +103,21 @@
 **Evidência coletada:** Nenhuma nova evidência.
 
 **Próxima semana:** Executar as atividades delegadas (implementar testes com `mock`, aplicar o modelo de licenças MIT e CC BY 4.0, refinar o `README.md`) e agendar a primeira sessão de testes práticos com o público.
+
+### Semana de 30/10
+
+**Quem trabalhou e quanto:** Everton — 2h; Jonathan — 0h; Raynnara — 2h
+
+**O que foi feito:**
+- **Everton:** Refinou as instruções do `README.md` para facilitar o uso pelos convidados, criou o arquivo `.gitattributes` para entregar um arquivo ZIP limpo aos usuários e deu andamento ao chamado no GitHub para a limpeza definitiva do cache.
+- **Jonathan:** Sem atividades técnicas de código reportadas nesta semana.
+- **Raynnara:** Aplicou o modelo de licenças, adicionando o arquivo `LICENSE-ROTEIRO` com detalhes da licença CC BY 4.0, e atualizou a seção de atribuição de créditos para os dados meteorológicos da OpenWeather.
+- **Equipe:** Ainda não definimos a data da primeira prática oficial com os convidados.
+
+**Obstáculo:** A dificuldade contínua de resolver o problema de limpeza (garbage collection) no cache do GitHub para remover os dados sensíveis de vez.
+
+**Contato com o público:** Nenhum contato nesta semana.
+
+**Evidência coletada:** Nenhuma nova evidência.
+
+**Próxima semana:** Realizar um teste do roteiro internamente entre a equipe, definir a data da primeira prática com os convidados e concluir a implementação dos testes automatizados do código.
