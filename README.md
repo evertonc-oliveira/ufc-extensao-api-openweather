@@ -16,7 +16,7 @@ Pessoas interessadas em aprender conceitos básicos de programação, sem necess
 
 3. IMPORTANTE (Windows): Na primeira tela do instalador, marque a caixa de seleção "Add Python to PATH" ou "Add python.exe to PATH" antes de clicar em "Install Now".
 
-### Passo 2: Criação da chave da API
+### Passo 2: Criação da chave da API (OpenWeather)
 
 1. Acesse o site https://openweathermap.org/ e clique em "Sign Up".
 
@@ -24,7 +24,7 @@ Pessoas interessadas em aprender conceitos básicos de programação, sem necess
 
 3. Após o login, clique no seu nome de usuário no canto superior direito e selecione "My API keys".
 
-4. Copie a sequência de letras e números gerada na tela. Esta é a sua chave. (Pode levar alguns minutos para a chave ser ativada pelo sistema).
+4. Guarde a sequência de letras e números gerada na tela. Esta é a sua chave. (Pode levar de alguns minutos até algumas horas para a chave ser ativada pelo sistema).
 
 ### Passo 3: Download do projeto
 
@@ -36,46 +36,58 @@ Pessoas interessadas em aprender conceitos básicos de programação, sem necess
 
 4. Entre na pasta que foi extraída.
 
-### Passo 4: Configuração da chave
+### Passo 4: Preparação do arquivo de configuração (Terminal)
 
-1. Dentro da pasta extraída, localize o arquivo chamado `.env.example`.
+1. Abra o terminal do seu sistema operacional diretamente na pasta do projeto que você extraiu:
 
-2. Renomeie este arquivo para apenas `.env` (remova a parte ".example").
+   * **No Windows:** Abra a pasta do projeto, clique na barra de endereços no topo da janela, digite `cmd` e pressione Enter.
 
-3. Abra o arquivo `.env` usando um editor de texto simples (como o Bloco de Notas no Windows, o TextEdit no Mac ou o Gedit no Linux).
+   * **No Linux:** Abra a pasta do projeto, clique com o botão direito do mouse em um espaço vazio dentro da janela e selecione "Abrir no Terminal".
 
-4. Apague o texto "sua_chave_aqui" e cole a chave que você copiou no Passo 2. O conteúdo do arquivo deve ficar exatamente assim, sem espaços extras ou aspas:
-   `OPENWEATHER_API_KEY=chave_copiada_aqui`
+2. No terminal que se abrirá, digite o comando abaixo correspondente ao seu sistema e pressione Enter para criar o arquivo de configuração de forma segura:
 
-5. Salve e feche o arquivo.
+   * **No Windows:** `copy .env.example .env`
 
-### Passo 5: Preparação do ambiente
+   * **No Linux:** `cp .env.example .env`
 
-1. Abra o terminal do seu sistema operacional diretamente na pasta do projeto:
+### Passo 5: Configuração da chave da API
 
-   * No Windows: Abra a pasta do projeto, clique na barra de endereços no topo da janela, digite `cmd` e pressione Enter.
+1. Mantenha a janela do terminal aberta (vamos usá-la no próximo passo).
 
-   * No Mac: Abra a pasta, clique com o botão direito do mouse na janela e selecione "Novo Terminal na Pasta".
+2. Volte à pasta do projeto, localize o novo arquivo chamado `.env` e abra-o usando um editor de texto simples (como o Bloco de Notas no Windows ou Gedit no Linux).
 
-   * No Linux: Abra a pasta do projeto, clique com o botão direito do mouse em um espaço vazio dentro da janela e selecione "Abrir no Terminal".
+3. Apague o texto "sua_chave_aqui" e cole a chave que você copiou no Passo 2. O conteúdo do arquivo deve ficar exatamente assim, sem espaços extras ou aspas:
+   `OPENWEATHER_API_KEY=chave`
 
-2. No terminal que se abrirá, digite o comando abaixo e pressione Enter para instalar as dependências necessárias:
+4. Salve e feche o arquivo de texto.
 
-   ```
-   pip install requests python-dotenv
-   
-   ```
+### Passo 6: Instalação das dependências
 
-   *(Nota para Windows: Se o comando acima retornar um erro, tente utilizar `python -m pip install requests python-dotenv`)*
+1. Volte para a janela do terminal.
 
-### Passo 6: Execução do código
+2. Digite o comando abaixo e pressione Enter para instalar os pacotes necessários:
+
+   * **No Windows:** `pip install requests python-dotenv`
+     *(Nota: Se retornar erro, tente utilizar `python -m pip install requests python-dotenv`)*
+
+   * **No Linux:** `pip3 install requests python-dotenv`
+
+**Nota para usuários de Linux (Ubuntu, Mint, etc.):**
+Se o comando acima falhar exibindo mensagens como "comando não encontrado" ou "externally-managed-environment", digite os três comandos abaixo no terminal, um por vez, apertando Enter após cada um (se pedir senha, digite a senha do seu computador):
+
+1. `sudo apt update`
+
+2. `sudo apt install python3-pip`
+
+3. `pip3 install requests python-dotenv --break-system-packages`
+
+### Passo 7: Execução do código
 
 1. No mesmo terminal, digite o comando abaixo e pressione Enter:
 
-   ```
-   python clima.py
-   
-   ```
+   * **No Windows:** `python clima.py`
+
+   * **No Linux:** `python3 clima.py`
 
 2. O resultado exibido no terminal será semelhante a este:
 
