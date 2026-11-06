@@ -1,4 +1,4 @@
-# Licenca dos Dados Meteorologicos
+# Licença dos Dados Meteorologicos
 
 Os dados meteorológicos utilizados e exibidos neste projeto são consumidos a partir da API do **OpenWeather**. 
 
