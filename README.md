@@ -54,7 +54,7 @@ Pessoas interessadas em aprender conceitos básicos de programação, sem necess
 
 1. Mantenha a janela do terminal aberta (vamos usá-la no próximo passo).
 
-2. Volte à pasta do projeto, localize o novo arquivo chamado `.env` e abra-o usando um editor de texto simples (como o Bloco de Notas no Windows ou Gedit no Linux).
+2. Volte à pasta do projeto, localize o novo arquivo chamado `.env` (observe se é realmente o arquivo ENV e não o arquivo do tipo EXAMPLE) e abra-o usando um editor de texto simples (como o Bloco de Notas no Windows ou Gedit no Linux).
 
 3. Apague o texto "sua_chave_aqui" e cole a chave que você copiou no Passo 2. O conteúdo do arquivo deve ficar exatamente assim, sem espaços extras ou aspas:
    `OPENWEATHER_API_KEY=chave`
