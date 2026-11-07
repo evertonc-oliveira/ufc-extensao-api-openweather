@@ -121,3 +121,21 @@
 **Evidência coletada:** Nenhuma nova evidência.
 
 **Próxima semana:** Realizar um teste do roteiro internamente entre a equipe, definir a data da primeira prática com os convidados e concluir a implementação dos testes automatizados do código.
+
+### Semana de 06/11
+
+**Quem trabalhou e quanto:** Everton — 3h; Jonathan — 0h; Raynnara — 30min
+
+**O que foi feito:**
+- **Everton:** Realizou com sucesso os testes práticos internos do projeto, validando a execução em ambientes Windows e Linux. A partir dos testes, modificou o `README.md` incluindo soluções para possíveis erros (como configurações de `.env` e comandos específicos do terminal no Linux).
+- **Raynnara:** Auxiliou na organização da equipe e nas tratativas de agendamento do teste prático.
+- **Jonathan:** Sem atividades reportadas nesta semana.
+- **Equipe:** Definimos a data para a realização do teste prático oficial com os convidados para sábado, 07/11.
+
+**Obstáculo:** Dificuldades no alinhamento de horários e comunicação entre todos os membros da equipe, o que impactou a distribuição de algumas tarefas e gerou incertezas na organização da agenda.
+
+**Contato com o público:** Contato inicial com os convidados para o agendamento da prática presencial.
+
+**Evidência coletada:** Nenhuma evidência coletada nesta semana.
+
+**Próxima semana:** Executar a prática presencial com os convidados, reunir os feedbacks qualitativos e preparar a documentos para próximas entregas
