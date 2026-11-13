@@ -139,3 +139,21 @@
 **Evidência coletada:** Nenhuma evidência coletada nesta semana.
 
 **Próxima semana:** Executar a prática presencial com os convidados, reunir os feedbacks qualitativos e preparar a documentos para próximas entregas
+
+### Semana de 13/11
+
+**Quem trabalhou e quanto:** Everton — 4h; Jonathan — 0h; Raynnara — 0h
+
+**O que foi feito:**
+- **Everton:** Realizou o teste prático presencial com o convidado (Luiz Deivson) e adicionou as evidências no repositório do GitHub (capturas de tela do terminal e print do feedback no WhatsApp). Limpou o repositório removendo o arquivo obsoleto `testesimples.py`, criou o arquivo `test_clima.py` com a implementação dos testes unitários simulados (*mock*) e fez ajustes nas configurações do `.gitattributes`.
+- **Raynnara:** Sem atividades reportadas nesta semana.
+- **Jonathan:** Sem atividades reportadas nesta semana.
+- **Equipe:** Fechamento e consolidação do repositório para a entrega do Marco 2.
+
+**Obstáculo:** Falta de contribuição e comunicação do restante da equipe. Os colegas não executaram testes, não subiram informações no GitHub e não entraram em contato para justificar o porquê de não terem feito. O Jonathan, especificamente, não realizou a sua parte que seria a criação da *mock* de testes, exigindo a absorção da demanda de última hora para garantir a entrega do marco.
+
+**Contato com o público:** Aplicação do teste prático presencial com o primeiro convidado (Luiz) e coleta de feedback qualitativo sobre a experiência.
+
+**Evidência coletada:** Registros adicionados na pasta `evidencias/` (4 capturas de tela da execução e 1 de feedback) e tabulação preenchida no arquivo `evidencias.csv`.
+
+**Próxima semana:** Fazer os testes práticos do roteiro com os convidados que ainda faltam.
