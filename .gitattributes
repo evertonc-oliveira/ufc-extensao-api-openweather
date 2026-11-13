@@ -12,6 +12,6 @@ plano-de-acao.md export-ignore
 socializacao.md export-ignore
 
 # Ignora arquivos de teste e configuração do Git
-testesimples.py export-ignore
+test_clima.py export-ignore
 .gitignore export-ignore
 .gitattributes export-ignore
