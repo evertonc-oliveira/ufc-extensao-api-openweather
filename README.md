@@ -131,24 +131,17 @@ O script `clima.py` possui validações para orientar o usuário em caso de falh
 
 | Origem | Dados | Licença | 
 | ----- | ----- | ----- | 
-| OpenWeather API | Temperatura e descrição do clima | ODbL | 
+| OpenWeather API | Temperatura e descrição do clima | CC BY-SA 4.0 e ODbL |
 
 ## Licença
 
-* Dados: ODbL (Open Database License).
-
-* Código e material desta equipe: Creative Commons.
-
-Este software está licenciado sob a licença [MIT](LICENSE).
-
-## Dados Meteorológicos
-
-Os dados de clima são fornecidos por [OpenWeather](https://openweathermap.org) sob as licenças [CC BY-SA 4.0](https://creativecommons.org) e [ODbL](https://opendatacommons.org). Consulte o arquivo [DATA_LICENSE.md](DATA_LICENSE.md) para obter detalhes sobre o uso.
+* **Código:** Licenciado sob a licença [MIT](LICENSE).
+* **Roteiro:** Licenciado sob [Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)](LICENSE-ROTEIRO).
+* **Dados meteorológicos:** Fornecidos pela [OpenWeather](https://openweathermap.org) sob as licenças [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) e [ODbL](https://opendatacommons.org/licenses/odbl/) (consulte [DATA_LICENSE.md](DATA_LICENSE.md)).
 
 ## Limitações
 
 * O sistema não salva histórico de temperaturas.
-
 * O sistema não fornece previsões meteorológicas futuras.
 
 ## Contato
