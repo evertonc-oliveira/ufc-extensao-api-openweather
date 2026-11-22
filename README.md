@@ -136,8 +136,8 @@ O script `clima.py` possui validações para orientar o usuário em caso de falh
 ## Licença
 
 * **Código:** Licenciado sob a licença [MIT](LICENSE).
-* **Roteiro:** Licenciado sob [Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)](LICENSE-ROTEIRO).
-* **Dados meteorológicos:** Fornecidos pela [OpenWeather](https://openweathermap.org) sob as licenças [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) e [ODbL](https://opendatacommons.org/licenses/odbl/) (consulte [DATA_LICENSE.md](DATA_LICENSE.md)).
+* **Roteiro:** Licenciado sob a licença [CC BY 4.0](LICENSE-ROTEIRO).
+* **Dados meteorológicos:** Fornecidos pela OpenWeather sob as licenças [CC BY-SA 4.0 e ODbL](DATA_LICENSE.md).
 
 ## Limitações
 
