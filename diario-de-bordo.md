@@ -157,3 +157,21 @@
 **Evidência coletada:** Registros adicionados na pasta `evidencias/` (4 capturas de tela da execução e 1 de feedback) e tabulação preenchida no arquivo `evidencias.csv`.
 
 **Próxima semana:** Fazer os testes práticos do roteiro com os convidados que ainda faltam.
+
+### Semana de 20/11
+
+**Quem trabalhou e quanto:** Everton — 0h; Jonathan — 0h; Raynnara — 0h
+
+**O que foi feito:**
+- **Everton:** Sem atividades técnicas nesta semana.
+- **Raynnara:** Sem atividades reportadas nesta semana.
+- **Jonathan:** Sem atividades reportadas nesta semana.
+- **Equipe:** Sem atividades reportadas nesta semana.
+
+**Obstáculo:** Dificuldades gerais para conciliar o tempo entre as demais demandas acadêmicas do semestre e compromissos pessoais.
+
+**Contato com o público:** Nenhum contato ou teste prático executado nesta semana.
+
+**Evidência coletada:** Nenhuma evidência coletada nesta semana.
+
+**Próxima semana:** Realizar os testes práticos com os convidados restantes, registrar as novas evidências no repositório, aplicar eventuais correções apontadas no Marco 2 e estruturar o Marco 3.
