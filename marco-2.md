@@ -6,7 +6,7 @@
 - **Marco e data:** Marco 2, 13/11/2026
 - **Trilha:** B (curadoria e divulgação)
 - **Endereço público do produto:** https://github.com/evertonc-oliveira/ufc-extensao-api-openweather
-- **Commit ou tag desta entrega:** 6d23b6fe805fc2f530782c26aa7e2831e92a7152
+- **Commit ou tag desta entrega:** d7cb0bd68748aa6b8f55823fb57a941a7f9c48a0
 
 ## Campo 1 — O que funciona hoje
 
@@ -23,9 +23,12 @@
 
 | Indicador | Planejado | Obtido até hoje | Onde está a evidência |
 | :-- | :-- | :-- | :-- |
-| Pessoas que utilizaram o roteiro | 3 | 1 | `evidencias.csv` e `evidencias/` |
+| Pessoas que utilizaram o roteiro | 3 | 2 | `evidencias.csv` e `evidencias/` |
 
-**O que o público externo disse:** "Achei fácil e intuitivo. Foi interessante. Achava que era mais complicado. Mudou um pouco minha percepção." — Luiz. O plano para atingir a meta até o próximo marco é aplicar o roteiro com os demais convidados previamente contatados (Icaro e Natan).
+**O que o público externo disse:** "Achei fácil e intuitivo. Foi interessante. Achava que era mais complicado. Mudou um pouco minha percepção." — Luiz.  
+"Sim, todas foram claras e achei bem tranquilo. Me senti feliz quando deu certo e mais informado. Achava um pouco complicado mas a facilidade do tutorial ajudou muito a conseguir fazer funcionar." — Ícaro.  
+O plano para atingir a meta até o próximo marco é aplicar o roteiro com o último convidado previamente contatado (Natan).
+
 
 ## Campo 4 — Obstáculo e replanejamento
 
@@ -36,7 +39,7 @@ Um dos maiores obstáculos técnicos foi realizar a limpeza profunda do históri
 | Dimensão | n.a.? | Pts (0–2) | Por quê, em uma linha |
 | :-- | :-- | :-- | :-- |
 | D1 Qualidade técnica | | 1.5 | O código lida com erros e possui testes com mock, porém não é perfeito e a estrutura pode evoluir. |
-| D2 Alcance e adequação ao público | | 1.0 | O produto funciona de ponta a ponta, porém apenas 1 usuário externo foi alcançado até o momento (a meta eram 3). |
+| D2 Alcance e adequação ao público | | 1.0 | O produto funciona de ponta a ponta, porém apenas 2 usuários externos foi alcançado até o momento (a meta era 3). |
 | D3 Documentação e reprodutibilidade | | 2.0 | O roteiro (README) está bem consolidado, detalhado e cobre o necessário para o público reproduzir o projeto. |
 | D4 Registro do processo | | 2.0 | As evidências, o arquivo CSV e o diário de bordo refletem com fidelidade os testes, bloqueios e o avanço real do processo. |
 | D5 Autoavaliação e reflexão | x | n.a. | n.a. |
