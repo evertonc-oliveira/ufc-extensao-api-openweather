@@ -6,7 +6,7 @@
 - **Marco e data:** Marco 2, 13/11/2026
 - **Trilha:** B (curadoria e divulgação)
 - **Endereço público do produto:** https://github.com/evertonc-oliveira/ufc-extensao-api-openweather
-- **Commit ou tag desta entrega:** 346741c961a8aef82769c94ecb877ff6122fd0a3
+- **Commit ou tag desta entrega:** 6d23b6fe805fc2f530782c26aa7e2831e92a7152
 
 ## Campo 1 — O que funciona hoje
 
