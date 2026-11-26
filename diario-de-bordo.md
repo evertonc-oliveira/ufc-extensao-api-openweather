@@ -186,7 +186,7 @@
 - **Jonathan:** Realizou o teste prático com o convidado Natan, coletou as respectivas evidências (capturas de tela da execução e print de feedback) e realizou o upload dos arquivos na pasta `evidencias/` do repositório no GitHub.
 - **Equipe:** Concluiu a meta planejada de testes práticos com usuários externos (3 de 3 convidados) e consolidou os registros e a documentação do projeto para a entrega do Marco 3.
 
-**Obstáculo:** Dificuldade inicial para conciliar a agenda entre os integrantes e os convidados restantes, contornada por meio da aplicação e do acompanhamento remoto via WhatsApp.
+**Obstáculo:** Dificuldade inicial para conciliar a agenda entre os integrantes e os convidados restantes, contornada por meio da aplicação e do acompanhamento remoto via WhatsApp para um dos convidados.
 
 **Contato com o público:** Aplicação prática do roteiro e coleta de feedback qualitativo com dois novos convidados externos (Ícaro e Natan), totalizando três participantes externos que executaram o tutorial de ponta a ponta sem bloqueios ou necessidade de ajustes.
 
