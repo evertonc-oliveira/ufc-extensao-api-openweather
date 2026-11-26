@@ -175,3 +175,21 @@
 **Evidência coletada:** Nenhuma evidência coletada nesta semana.
 
 **Próxima semana:** Realizar os testes práticos com os convidados restantes, registrar as novas evidências no repositório, aplicar eventuais correções apontadas no Marco 2 e estruturar o Marco 3.
+
+### Semana de 27/11
+
+**Quem trabalhou e quanto:** Everton — 3h; Jonathan — 1h30min; Raynnara — 1h30min
+
+**O que foi feito:**
+- **Everton:** Adicionou a descrição e a tabulação das evidências do teste com os convidados Ícaro e Natan no arquivo `evidencias.csv`, ajustou e padronizou a seção de licenças no arquivo `README.md`, preparou a atualização final da entrega do Marco 2 e consolidou a documentação final para o Marco 3.
+- **Raynnara:** Realizou o teste prático com o convidado Ícaro, coletou as respectivas evidências (capturas de tela da execução e print de feedback) e realizou o upload dos arquivos na pasta `evidencias/` do repositório no GitHub.
+- **Jonathan:** Realizou o teste prático com o convidado Natan, coletou as respectivas evidências (capturas de tela da execução e print de feedback) e realizou o upload dos arquivos na pasta `evidencias/` do repositório no GitHub.
+- **Equipe:** Concluiu a meta planejada de testes práticos com usuários externos (3 de 3 convidados) e consolidou os registros e a documentação do projeto para a entrega do Marco 3.
+
+**Obstáculo:** Dificuldade inicial para conciliar a agenda entre os integrantes e os convidados restantes, contornada por meio da aplicação e do acompanhamento remoto via WhatsApp.
+
+**Contato com o público:** Aplicação prática do roteiro e coleta de feedback qualitativo com dois novos convidados externos (Ícaro e Natan), totalizando três participantes externos que executaram o tutorial de ponta a ponta sem bloqueios ou necessidade de ajustes.
+
+**Evidência coletada:** Capturas de tela da execução do roteiro e prints de feedback qualitativo dos testes realizados com Ícaro e Natan salvos na pasta `evidencias/`, além dos respectivos registros tabulados no arquivo `evidencias.csv`.
+
+**Próxima semana:** Elaborar o documento de socialização pública (`socializacao.md`) e redigir as autoavaliações individuais para a entrega final prevista para 04/12.
